@@ -27,5 +27,5 @@ const merge = function(sortedArray1, sortedArray2){
             result.push(sortedArray2.shift());
         }
     }
-    return result.concat(sortedArray1, sortedArray2);
+    return result.concat(sortedArray1, sortedArray2);//doing concat because one of them will going to be empty
 }
