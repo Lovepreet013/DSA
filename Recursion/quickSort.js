@@ -1,6 +1,6 @@
 function quickSort(nums){
     //base case, array of length 1 or 0
-    if(nums.length < 2) return nums;
+    if(nums.length <= 1) return nums;
 
     //selecting pivot
     const pivot = nums[nums.length - 1];
